@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <title>Document</title>
+    <title>Calculadora de Gastos</title>
 </head>
 <body>
     <section>
-        <h2> Calculadora de gastos</h2>
+        <h2>Calculadora de gastos</h2>
         <div>
-            <label for = "descripcion"> Describa el gasto</label>
-            <input id = "descripcion" placeholder="En que gasto dinero" type="text">
+            <label for="descripcion">Describa el gasto</label>
+            <input id="descripcion" placeholder="En que gasto dinero" type="text">
         </div>
 
         <div>
@@ -26,40 +26,23 @@
                 <option value="Entretenimiento">Entretenimiento</option>
                 <option value="Servicios">Servicios</option>
                 <option value="Otros">Otros</option>
-
-                
             </select>
         </div>
         <button id="btnAgregar">Agregar Gasto</button>
     </section>
 
-    <section  >
+    <section>
         <h2>Total Gasto</h2>
-        
-         <div id="totalHoy">
-         </div>
-
-         <div id="totalMes">
-         </div>
-
-         <div id="totalesCategoria">
-         </div>
+         <div id="totalHoy"></div>
+         <div id="totalMes"></div>
+         <div id="totalesCategoria"></div>
     </section>
 
     <section>
         <h2>Historial de Gastos</h2>
-        <div id="listaGastos">
-            <button id = "btnEliminar">Eliminar gasto</button>
-         </div>
+         <div id="listaGastos"></div>
     </section>
 
-
-
-
-
-
-
-
-    <script src="script.js"></script>
+     <script src="script.js"></script>
 </body>
 </html>
